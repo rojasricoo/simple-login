@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+## Project Report: Simple Login
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Introduction
 
-Currently, two official plugins are available:
+This project consists of a simple login page created using React, Vite, and some ESLint rules. The page presents a basic form for entering username and password, with links for registration and password recovery.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tools Used
 
-## Expanding the ESLint configuration
+* **React:** JavaScript library for building user interfaces.
+* **Vite:** Frontend build tool that offers a fast and efficient development environment.
+* **ESLint:** Static code analysis tool that helps identify and correct style issues and potential errors in JavaScript code.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Project Structure
 
-- Configure the top-level `parserOptions` property like this:
+The main component for the login page is located in `src/components/SimpleLogin.tsx`. The associated styles are in `src/components/styles.css`. The component is used in `src/App.tsx`, which is the entry point of the application.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Cover Image
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![Project Cover](/public/portada.png)
+
+### Additional Considerations
+
+* **Functionality:** Currently, the login page is just a visual mockup. To add real login functionality, you will need to implement authentication logic and user management.
+* **Security:** In a real application, it is crucial to implement appropriate security measures to protect user credentials and prevent vulnerabilities such as SQL injection or XSS attacks.
+* **Design:** The current design is basic. You can improve it by using a CSS framework like Bootstrap or Tailwind CSS, or by creating your own custom styles.
+
+### Next Steps
+
+* Implement authentication logic and user management.
+* Improve the design and user experience.
+* Add unit and integration tests to ensure code quality.
+* Deploy the application to a web server to make it publicly accessible.
+
+### Conclusion
+
+This project provides a solid foundation for building a complete login page. With the tools and technologies used, you can create a secure, functional, and attractive application for your users.
