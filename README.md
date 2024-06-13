@@ -2,13 +2,13 @@
 
 ### Introduction
 
-This project consists of a simple login page created using React, Vite, and some ESLint rules. The page presents a basic form for entering username and password, with links for registration and password recovery.
+This project consists of a simple login page created using [React](https://reactjs.org/), [Vite](https://vitejs.dev/), and [Typescript](https://www.typescriptlang.org/). The page presents a basic form for entering username and password, with links for registration and password recovery.
 
 ### Tools Used
 
-* **React:** JavaScript library for building user interfaces.
-* **Vite:** Frontend build tool that offers a fast and efficient development environment.
-* **ESLint:** Static code analysis tool that helps identify and correct style issues and potential errors in JavaScript code.
+* **[React](https://reactjs.org/)**: JavaScript library for building user interfaces.
+* **[Vite](https://vitejs.dev/)**: Frontend build tool that offers a fast and efficient development environment.
+* **[Typescript](https://www.typescriptlang.org/)**: Typed superset of JavaScript that adds optional static typing to the language.
 
 ### Project Structure
 
@@ -22,7 +22,7 @@ The main component for the login page is located in `src/components/SimpleLogin.
 
 * **Functionality:** Currently, the login page is just a visual mockup. To add real login functionality, you will need to implement authentication logic and user management.
 * **Security:** In a real application, it is crucial to implement appropriate security measures to protect user credentials and prevent vulnerabilities such as SQL injection or XSS attacks.
-* **Design:** The current design is basic. You can improve it by using a CSS framework like Bootstrap or Tailwind CSS, or by creating your own custom styles.
+* **Design:** The current design is basic. You can improve it by using a CSS framework like [Bootstrap](https://getbootstrap.com/) or [Tailwind CSS](https://tailwindcss.com/), or by creating your own custom styles.
 
 ### Next Steps
 
